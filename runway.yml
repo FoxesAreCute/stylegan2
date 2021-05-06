@@ -1,9 +1,10 @@
 # Specify the version of the runway.yml spec.
-version: 0.69
+version: 0.2
 # Supported python versions are 2.7 and 3.6
 python: 3.7
 # The command to run your model. This value is used as the CMD value in
 # the generated Docker image.
+# Updated to Joydivision
 entrypoint: python runway_model.py
 # Which NVIDIA CUDA version to use. Supported versions include 10, 9.2, and 9.
 cuda: 10
