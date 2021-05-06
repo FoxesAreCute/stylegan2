@@ -1,5 +1,5 @@
 # Specify the version of the runway.yml spec.
-version: 2
+version: 
 # Supported python versions are 2.7 and 3.6
 python: 3.6
 # The command to run your model. This value is used as the CMD value in
