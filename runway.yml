@@ -25,6 +25,7 @@ files:
     # automatically. Builds that require excessive storage can fail or take a
     # very long time to install on another user's machine. You can use the
     # files.ignore array to exclude files from your build.
+    - data/*
     ignore:
         - my_dataset/*
         - secrets.txt
