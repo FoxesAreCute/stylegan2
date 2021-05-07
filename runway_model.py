@@ -1,6 +1,12 @@
 import runway
-from runway.data_types import number, text, image
+from runway.data_types import number, text, image, file
 from example_model import ExampleModel
+
+@runway.setup(options={"checkpoint": file())
+def setup(opts):
+    model = initialize_model_from_checkpoint(args["checkpoint"])
+    return model
+
 
 # Setup the model, initialize weights, set the configs of the model, etc.
 # Every model will have a different set of configurations and requirements.
